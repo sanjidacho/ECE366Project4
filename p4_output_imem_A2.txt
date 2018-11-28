@@ -1,0 +1,597 @@
+Starting Simulation
+PC: 0 Addi $1, $0, 3
+Registers: [0, 3, 0, 0, 0, 0, 0, 0]
+PC: 1 Addi $2, $0, 80
+Registers: [0, 3, 80, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 3, 80, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 3, 76, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 3, 76, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 6, 76, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -6, 76, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -3, 76, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -3, 76, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -3, 76, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -3, 72, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -3, 72, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -6, 72, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 6, 72, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 9, 72, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 9, 72, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 9, 72, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 9, 68, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 9, 68, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 18, 68, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -18, 68, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -15, 68, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -15, 68, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -15, 68, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -15, 64, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -15, 64, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -30, 64, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 30, 64, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 33, 64, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 33, 64, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 33, 64, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 33, 60, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 33, 60, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 66, 60, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -66, 60, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -63, 60, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -63, 60, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -63, 60, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -63, 56, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -63, 56, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -126, 56, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 126, 56, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 129, 56, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 129, 56, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 129, 56, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 129, 52, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 129, 52, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 258, 52, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -258, 52, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -255, 52, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -255, 52, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -255, 52, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -255, 48, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -255, 48, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -510, 48, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 510, 48, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 513, 48, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 513, 48, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 513, 48, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 513, 44, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 513, 44, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 1026, 44, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -1026, 44, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -1023, 44, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -1023, 44, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -1023, 44, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -1023, 40, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -1023, 40, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -2046, 40, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 2046, 40, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 2049, 40, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 2049, 40, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 2049, 40, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 2049, 36, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 2049, 36, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 4098, 36, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -4098, 36, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -4095, 36, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -4095, 36, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -4095, 36, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -4095, 32, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -4095, 32, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -8190, 32, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 8190, 32, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 8193, 32, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 8193, 32, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 8193, 32, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 8193, 28, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 8193, 28, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 16386, 28, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -16386, 28, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -16383, 28, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -16383, 28, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -16383, 28, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -16383, 24, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -16383, 24, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -32766, 24, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 32766, 24, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 32769, 24, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 32769, 24, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 32769, 24, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 32769, 20, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 32769, 20, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 65538, 20, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -65538, 20, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -65535, 20, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -65535, 20, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -65535, 20, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -65535, 16, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -65535, 16, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -131070, 16, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 131070, 16, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 131073, 16, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 131073, 16, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 131073, 16, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 131073, 12, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 131073, 12, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 262146, 12, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -262146, 12, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -262143, 12, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -262143, 12, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -262143, 12, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -262143, 8, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -262143, 8, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, -524286, 8, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, 524286, 8, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, 524289, 8, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, 524289, 8, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, 524289, 8, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, 524289, 4, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, 524289, 4, 0, 0, 0, 0, 0]
+PC: 5 Add $1, $1, $1
+Registers: [0, 1048578, 4, 0, 0, 0, 0, 0]
+PC: 6 Sub $1, $0, $1
+Registers: [0, -1048578, 4, 0, 0, 0, 0, 0]
+PC: 7 Addi $1, $1, 3
+Registers: [0, -1048575, 4, 0, 0, 0, 0, 0]
+PC: 8 Beq $3, $3, -7
+Registers: [0, -1048575, 4, 0, 0, 0, 0, 0]
+PC: 2 Sw $1, 8192($2)
+Registers: [0, -1048575, 4, 0, 0, 0, 0, 0]
+PC: 3 Addi $2, $2, -4
+Registers: [0, -1048575, 0, 0, 0, 0, 0, 0]
+PC: 4 Beq $2, $0, 4
+Registers: [0, -1048575, 0, 0, 0, 0, 0, 0]
+PC: 9 Addi $5, $0, 40
+Registers: [0, -1048575, 0, 0, 0, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 0
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 0 Offset: 0
+Cache Access was a miss
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+Registers: [0, 0, 0, 0, 0, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, 0, 0, 0, 0, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, 0, 0, 0, 0, 40, 0, 0]
+PC: 13 Add $4, $4, $1
+Registers: [0, 0, 0, 0, 0, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, 0, 4, 0, 0, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, 0, 4, 0, 0, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 4
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 0 Offset: 1
+Cache Access was a hit
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+Registers: [0, -1048575, 4, 0, 0, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, -1048575, 4, 1, 0, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, -1048575, 4, 1, 0, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, -1048575, 8, 1, 0, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, -1048575, 8, 1, 0, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 8
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 0 Offset: 2
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 1 Offset: 0
+Cache Access was a miss
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 1 Offset: 0
+Cache Access was a miss
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 1 Offset: 0
+Cache Access was a miss
+
+Registers: [0, 524289, 8, 1, 0, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, 524289, 8, 0, 0, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, 524289, 8, 0, 0, 40, 0, 0]
+PC: 13 Add $4, $4, $1
+Registers: [0, 524289, 8, 0, 524289, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, 524289, 12, 0, 524289, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, 524289, 12, 0, 524289, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 12
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 0 Offset: 3
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 1 Offset: 1
+Cache Access was a hit
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 1 Offset: 1
+Cache Access was a hit
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 1 Offset: 1
+Cache Access was a hit
+
+Registers: [0, -262143, 12, 0, 524289, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, -262143, 12, 1, 524289, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, -262143, 12, 1, 524289, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, -262143, 16, 1, 524289, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, -262143, 16, 1, 524289, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 16
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 1 Offset: 0
+Cache Access was a miss
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 2 Offset: 0
+Cache Access was a miss
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 2 Offset: 0
+Cache Access was a miss
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 2 Offset: 0
+Cache Access was a miss
+
+Registers: [0, 131073, 16, 1, 524289, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, 131073, 16, 0, 524289, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, 131073, 16, 0, 524289, 40, 0, 0]
+PC: 13 Add $4, $4, $1
+Registers: [0, 131073, 16, 0, 655362, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, 131073, 20, 0, 655362, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, 131073, 20, 0, 655362, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 20
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 1 Offset: 1
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 2 Offset: 1
+Cache Access was a hit
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 2 Offset: 1
+Cache Access was a hit
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 2 Offset: 1
+Cache Access was a hit
+
+Registers: [0, -65535, 20, 0, 655362, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, -65535, 20, 1, 655362, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, -65535, 20, 1, 655362, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, -65535, 24, 1, 655362, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, -65535, 24, 1, 655362, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 24
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 1 Offset: 2
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 3 Offset: 0
+Cache Access was a miss
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 3 Offset: 0
+Cache Access was a miss
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 3 Offset: 0
+Cache Access was a miss
+
+Registers: [0, 32769, 24, 1, 655362, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, 32769, 24, 0, 655362, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, 32769, 24, 0, 655362, 40, 0, 0]
+PC: 13 Add $4, $4, $1
+Registers: [0, 32769, 24, 0, 688131, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, 32769, 28, 0, 688131, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, 32769, 28, 0, 688131, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 28
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 0 Cache Index: 1 Offset: 3
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 0 Cache Index: 3 Offset: 1
+Cache Access was a hit
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 3 Offset: 1
+Cache Access was a hit
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 0 Cache Index: 3 Offset: 1
+Cache Access was a hit
+
+Registers: [0, -16383, 28, 0, 688131, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, -16383, 28, 1, 688131, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, -16383, 28, 1, 688131, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, -16383, 32, 1, 688131, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, -16383, 32, 1, 688131, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 32
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 1 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 1 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 4 Offset: 0
+Cache Access was a miss
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 1 Cache Index: 0 Offset: 0
+Cache Access was a miss
+
+Registers: [0, 8193, 32, 1, 688131, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, 8193, 32, 0, 688131, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, 8193, 32, 0, 688131, 40, 0, 0]
+PC: 13 Add $4, $4, $1
+Registers: [0, 8193, 32, 0, 696324, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, 8193, 36, 0, 696324, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, 8193, 36, 0, 696324, 40, 0, 0]
+PC: 10 Lw $1, 8192($2)
+
+Accessing address: 36
+
+For Direct Mapped Cache with block size 4 words and total 2 blocks:
+Tag: 1 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+For Direct Mapped Cache with block size 2 words and total 4 blocks:
+Tag: 1 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+For Fully Associative Cache with block size 2 words and total 4 blocks:
+Tag: 4 Offset: 1
+Cache Access was a hit
+
+For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+Tag: 1 Cache Index: 0 Offset: 1
+Cache Access was a hit
+
+Registers: [0, -4095, 36, 0, 696324, 40, 0, 0]
+PC: 11 Slt $3, $1, $0
+Registers: [0, -4095, 36, 1, 696324, 40, 0, 0]
+PC: 12 Bne $3, $0, 1
+Registers: [0, -4095, 36, 1, 696324, 40, 0, 0]
+PC: 14 Addi $2, $2, 4
+Registers: [0, -4095, 40, 1, 696324, 40, 0, 0]
+PC: 15 Bne $2, $5, -6
+Registers: [0, -4095, 40, 1, 696324, 40, 0, 0]
+PC: 16 Sw $4, 8192($0)
+Registers: [0, -4095, 40, 1, 696324, 40, 0, 0]
+PC: 17 Dead Loop, Exiting
+Simulation Ended Successfully
+PC: 17
+DIC: 196
+Registers: [0, -4095, 40, 1, 696324, 40, 0, 0]
+
+Total Cycles for Multi-Cycle MIPS CPU: 734
+Total Cycles for Piplelined MIPS CPU: 267
+Total 3 Cycle Instructions: 60
+Total 4 Cycle Instructions: 126
+Total 5 Cycle Instructions: 10
+
+Cache 1 hit rate: 0.7
+Cache 2 hit rate: 0.5
+Cache 3 hit rate: 0.5
+Cache 4 hit rate: 0.5
