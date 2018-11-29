@@ -1,1398 +1,1677 @@
 Starting Simulation
 PC: 0 Addi $1, $0, 5
+Register $1 = 5
 Registers: [0, 5, 0, 0, 0, 0, 0, 0]
 PC: 1 Addi $2, $0, 60
+Register $2 = 60
 Registers: [0, 5, 60, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[60] = 5
 Registers: [0, 5, 60, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 56
 Registers: [0, 5, 56, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 5, 56, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 10
 Registers: [0, 10, 56, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -10
 Registers: [0, -10, 56, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -7
 Registers: [0, -7, 56, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -7, 56, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[56] = -7
 Registers: [0, -7, 56, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 52
 Registers: [0, -7, 52, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -7, 52, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -14
 Registers: [0, -14, 52, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 14
 Registers: [0, 14, 52, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 17
 Registers: [0, 17, 52, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 17, 52, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[52] = 17
 Registers: [0, 17, 52, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 48
 Registers: [0, 17, 48, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 17, 48, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 34
 Registers: [0, 34, 48, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -34
 Registers: [0, -34, 48, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -31
 Registers: [0, -31, 48, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -31, 48, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[48] = -31
 Registers: [0, -31, 48, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 44
 Registers: [0, -31, 44, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -31, 44, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -62
 Registers: [0, -62, 44, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 62
 Registers: [0, 62, 44, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 65
 Registers: [0, 65, 44, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 65, 44, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[44] = 65
 Registers: [0, 65, 44, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 40
 Registers: [0, 65, 40, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 65, 40, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 130
 Registers: [0, 130, 40, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -130
 Registers: [0, -130, 40, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -127
 Registers: [0, -127, 40, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -127, 40, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[40] = -127
 Registers: [0, -127, 40, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 36
 Registers: [0, -127, 36, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -127, 36, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -254
 Registers: [0, -254, 36, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 254
 Registers: [0, 254, 36, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 257
 Registers: [0, 257, 36, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 257, 36, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[36] = 257
 Registers: [0, 257, 36, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 32
 Registers: [0, 257, 32, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 257, 32, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 514
 Registers: [0, 514, 32, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -514
 Registers: [0, -514, 32, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -511
 Registers: [0, -511, 32, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -511, 32, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[32] = -511
 Registers: [0, -511, 32, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 28
 Registers: [0, -511, 28, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -511, 28, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -1022
 Registers: [0, -1022, 28, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 1022
 Registers: [0, 1022, 28, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 1025
 Registers: [0, 1025, 28, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 1025, 28, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[28] = 1025
 Registers: [0, 1025, 28, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 24
 Registers: [0, 1025, 24, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 1025, 24, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 2050
 Registers: [0, 2050, 24, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -2050
 Registers: [0, -2050, 24, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -2047
 Registers: [0, -2047, 24, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -2047, 24, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[24] = -2047
 Registers: [0, -2047, 24, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 20
 Registers: [0, -2047, 20, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -2047, 20, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -4094
 Registers: [0, -4094, 20, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 4094
 Registers: [0, 4094, 20, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 4097
 Registers: [0, 4097, 20, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 4097, 20, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[20] = 4097
 Registers: [0, 4097, 20, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 16
 Registers: [0, 4097, 16, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 4097, 16, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 8194
 Registers: [0, 8194, 16, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -8194
 Registers: [0, -8194, 16, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -8191
 Registers: [0, -8191, 16, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -8191, 16, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[16] = -8191
 Registers: [0, -8191, 16, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 12
 Registers: [0, -8191, 12, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -8191, 12, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -16382
 Registers: [0, -16382, 12, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 16382
 Registers: [0, 16382, 12, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 16385
 Registers: [0, 16385, 12, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 16385, 12, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[12] = 16385
 Registers: [0, 16385, 12, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 8
 Registers: [0, 16385, 8, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, 16385, 8, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = 32770
 Registers: [0, 32770, 8, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = -32770
 Registers: [0, -32770, 8, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = -32767
 Registers: [0, -32767, 8, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, -32767, 8, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[8] = -32767
 Registers: [0, -32767, 8, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 4
 Registers: [0, -32767, 4, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
 Registers: [0, -32767, 4, 0, 0, 0, 0, 0]
 PC: 5 Add $1, $1, $1
+Register $1 = -65534
 Registers: [0, -65534, 4, 0, 0, 0, 0, 0]
 PC: 6 Sub $1, $0, $1
+Register $1 = 65534
 Registers: [0, 65534, 4, 0, 0, 0, 0, 0]
 PC: 7 Addi $1, $1, 3
+Register $1 = 65537
 Registers: [0, 65537, 4, 0, 0, 0, 0, 0]
 PC: 8 Beq $3, $3, -7
+Branch Taken, Updated PC: 1
 Registers: [0, 65537, 4, 0, 0, 0, 0, 0]
 PC: 2 Sw $1, 8192($2)
+Memory[4] = 65537
 Registers: [0, 65537, 4, 0, 0, 0, 0, 0]
 PC: 3 Addi $2, $2, -4
+Register $2 = 0
 Registers: [0, 65537, 0, 0, 0, 0, 0, 0]
 PC: 4 Beq $2, $0, 4
+Branch Taken, Updated PC: 8
 Registers: [0, 65537, 0, 0, 0, 0, 0, 0]
 PC: 9 Addi $6, $0, 60
+Register $6 = 60
 Registers: [0, 65537, 0, 0, 0, 0, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 65537, 0, 0, 0, 0, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 4
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 1
+Tag: 0 , Cache Index: 0 , Offset: 1 , Valid Bit: 0
 Cache Access was a miss
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 0 Offset: 1
+Tag: 0 , Cache Index: 0 , Offset: 1 , Valid Bit: 0
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 0 Offset: 1
 Cache Access was a miss
+Found Empty Place at 0
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 0 Offset: 1
 Cache Access was a miss
 
+Found empty place at 0
+Register $1 = 65537
 Registers: [0, 65537, 0, 0, 0, 0, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 65537
 Registers: [0, 65537, 0, 0, 65537, 0, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 8
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 2
+Tag: 0 , Cache Index: 0 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 1 Offset: 0
+Tag: 0 , Cache Index: 1 , Offset: 0 , Valid Bit: 0
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 1 Offset: 0
 Cache Access was a miss
+Found Empty Place at 1
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 1 Offset: 0
 Cache Access was a miss
 
+Found empty place at 0
+Register $1 = -32767
 Registers: [0, -32767, 0, 0, 65537, 0, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -98304
 Registers: [0, -32767, 0, 0, -98304, 0, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 12
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 3
+Tag: 0 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 1 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 16385
 Registers: [0, 16385, 0, 0, -98304, 0, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -81919
 Registers: [0, 16385, 0, 0, -81919, 0, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[4] = -81919
 Registers: [0, 16385, 0, 0, -81919, 0, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -81919
 Registers: [0, 16385, 0, 0, -81919, -81919, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 4
 Registers: [0, 16385, 4, 0, -81919, -81919, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 16385, 4, 0, -81919, -81919, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 16385, 4, 0, 0, -81919, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 8
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 2
+Tag: 0 , Cache Index: 0 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 1 Offset: 0
+Tag: 0 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 1 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 1 Offset: 0
 Cache Access was a hit
 
+Register $1 = -32767
 Registers: [0, -32767, 4, 0, 0, -81919, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -32767
 Registers: [0, -32767, 4, 0, -32767, -81919, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 12
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 3
+Tag: 0 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 1 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 16385
 Registers: [0, 16385, 4, 0, -32767, -81919, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -16384
 Registers: [0, 16385, 4, 0, -16384, -81919, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 16
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 0
+Tag: 0 , Cache Index: 1 , Offset: 0 , Valid Bit: 0
 Cache Access was a miss
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 0
+Tag: 0 , Cache Index: 2 , Offset: 0 , Valid Bit: 0
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 0
 Cache Access was a miss
+Found Empty Place at 2
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 0
 Cache Access was a miss
 
+Found empty place at 0
+Register $1 = -8191
 Registers: [0, -8191, 4, 0, -16384, -81919, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 8193
 Registers: [0, -8191, 4, 0, 8193, -81919, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[8] = 8193
 Registers: [0, -8191, 4, 0, 8193, -81919, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -73728
 Registers: [0, -8191, 4, 0, 8193, -73728, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 8
 Registers: [0, -8191, 8, 0, 8193, -73728, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -8191, 8, 0, 8193, -73728, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -8191, 8, 0, 0, -73728, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 12
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 0 Offset: 3
+Tag: 0 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 1 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 16385
 Registers: [0, 16385, 8, 0, 0, -73728, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 16385
 Registers: [0, 16385, 8, 0, 16385, -73728, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 16
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 0
+Tag: 0 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 0
+Tag: 0 , Cache Index: 2 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 0
 Cache Access was a hit
 
+Register $1 = -8191
 Registers: [0, -8191, 8, 0, 16385, -73728, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -24576
 Registers: [0, -8191, 8, 0, -24576, -73728, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 20
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 1
+Tag: 0 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 4097
 Registers: [0, 4097, 8, 0, -24576, -73728, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -20479
 Registers: [0, 4097, 8, 0, -20479, -73728, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[12] = -20479
 Registers: [0, 4097, 8, 0, -20479, -73728, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 86017
 Registers: [0, 4097, 8, 0, -20479, 86017, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 12
 Registers: [0, 4097, 12, 0, -20479, 86017, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 4097, 12, 0, -20479, 86017, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 4097, 12, 0, 0, 86017, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 16
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 0
+Tag: 0 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 0
+Tag: 0 , Cache Index: 2 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 0
 Cache Access was a hit
 
+Register $1 = -8191
 Registers: [0, -8191, 12, 0, 0, 86017, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -8191
 Registers: [0, -8191, 12, 0, -8191, 86017, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 20
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 1
+Tag: 0 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 4097
 Registers: [0, 4097, 12, 0, -8191, 86017, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -4096
 Registers: [0, 4097, 12, 0, -4096, 86017, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 24
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 2
+Tag: 0 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 0
+Tag: 0 , Cache Index: 3 , Offset: 0 , Valid Bit: 0
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 0
 Cache Access was a miss
+Found Empty Place at 3
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 0
 Cache Access was a miss
 
+Found empty place at 0
+Register $1 = -2047
 Registers: [0, -2047, 12, 0, -4096, 86017, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 2049
 Registers: [0, -2047, 12, 0, 2049, 86017, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[16] = 2049
 Registers: [0, -2047, 12, 0, 2049, 86017, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 88064
 Registers: [0, -2047, 12, 0, 2049, 88064, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 16
 Registers: [0, -2047, 16, 0, 2049, 88064, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -2047, 16, 0, 2049, 88064, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -2047, 16, 0, 0, 88064, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 20
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 1
+Tag: 0 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 2 Offset: 1
+Tag: 0 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 2 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 4097
 Registers: [0, 4097, 16, 0, 0, 88064, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 4097
 Registers: [0, 4097, 16, 0, 4097, 88064, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 24
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 2
+Tag: 0 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 0
+Tag: 0 , Cache Index: 3 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 0
 Cache Access was a hit
 
+Register $1 = -2047
 Registers: [0, -2047, 16, 0, 4097, 88064, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -6144
 Registers: [0, -2047, 16, 0, -6144, 88064, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 28
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 3
+Tag: 0 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 1
+Tag: 0 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 1025
 Registers: [0, 1025, 16, 0, -6144, 88064, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -5119
 Registers: [0, 1025, 16, 0, -5119, 88064, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[20] = -5119
 Registers: [0, 1025, 16, 0, -5119, 88064, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -84991
 Registers: [0, 1025, 16, 0, -5119, -84991, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 20
 Registers: [0, 1025, 20, 0, -5119, -84991, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 1025, 20, 0, -5119, -84991, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 1025, 20, 0, 0, -84991, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 24
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 2
+Tag: 0 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 0
+Tag: 0 , Cache Index: 3 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 0
 Cache Access was a hit
 
+Register $1 = -2047
 Registers: [0, -2047, 20, 0, 0, -84991, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -2047
 Registers: [0, -2047, 20, 0, -2047, -84991, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 28
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 3
+Tag: 0 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 1
+Tag: 0 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 1025
 Registers: [0, 1025, 20, 0, -2047, -84991, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -1024
 Registers: [0, 1025, 20, 0, -1024, -84991, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 32
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 0
 Cache Access was a miss
+Cache is Full, replacing block based on LRU replacement policy
+Replaced block at 0
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 0
 Cache Access was a miss
 
+Found empty place at 1
+Register $1 = -511
 Registers: [0, -511, 20, 0, -1024, -84991, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 513
 Registers: [0, -511, 20, 0, 513, -84991, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[24] = 513
 Registers: [0, -511, 20, 0, 513, -84991, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -84480
 Registers: [0, -511, 20, 0, 513, -84480, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 24
 Registers: [0, -511, 24, 0, 513, -84480, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -511, 24, 0, 513, -84480, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -511, 24, 0, 0, -84480, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 28
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 0 Cache Index: 1 Offset: 3
+Tag: 0 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 0 Cache Index: 3 Offset: 1
+Tag: 0 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 3 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 0 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 1025
 Registers: [0, 1025, 24, 0, 0, -84480, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 1025
 Registers: [0, 1025, 24, 0, 1025, -84480, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 32
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 0
 Cache Access was a hit
 
+Register $1 = -511
 Registers: [0, -511, 24, 0, 1025, -84480, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -1536
 Registers: [0, -511, 24, 0, -1536, -84480, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 36
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 1
 Cache Access was a hit
 
+Register $1 = 257
 Registers: [0, 257, 24, 0, -1536, -84480, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -1279
 Registers: [0, 257, 24, 0, -1279, -84480, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[28] = -1279
 Registers: [0, 257, 24, 0, -1279, -84480, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85249
 Registers: [0, 257, 24, 0, -1279, 85249, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 28
 Registers: [0, 257, 28, 0, -1279, 85249, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 257, 28, 0, -1279, 85249, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 257, 28, 0, 0, 85249, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 32
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 0
+Tag: 1 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 0
 Cache Access was a hit
 
+Register $1 = -511
 Registers: [0, -511, 28, 0, 0, 85249, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -511
 Registers: [0, -511, 28, 0, -511, 85249, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 36
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 1
 Cache Access was a hit
 
+Register $1 = 257
 Registers: [0, 257, 28, 0, -511, 85249, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -256
 Registers: [0, 257, 28, 0, -256, 85249, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 40
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 2
+Tag: 1 , Cache Index: 0 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 0
 Cache Access was a miss
+Cache is Full, replacing block based on LRU replacement policy
+Replaced block at 1
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 0
 Cache Access was a miss
 
+Found empty place at 1
+Register $1 = -127
 Registers: [0, -127, 28, 0, -256, 85249, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 129
 Registers: [0, -127, 28, 0, 129, 85249, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[32] = 129
 Registers: [0, -127, 28, 0, 129, 85249, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85376
 Registers: [0, -127, 28, 0, 129, 85376, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 32
 Registers: [0, -127, 32, 0, 129, 85376, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -127, 32, 0, 129, 85376, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -127, 32, 0, 0, 85376, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 36
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 0 Offset: 1
+Tag: 1 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 4 Offset: 1
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 0 Offset: 1
 Cache Access was a hit
 
+Register $1 = 257
 Registers: [0, 257, 32, 0, 0, 85376, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 257
 Registers: [0, 257, 32, 0, 257, 85376, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 40
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 2
+Tag: 1 , Cache Index: 0 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 0
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 0
 Cache Access was a hit
 
+Register $1 = -127
 Registers: [0, -127, 32, 0, 257, 85376, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -384
 Registers: [0, -127, 32, 0, -384, 85376, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 44
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 3
+Tag: 1 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 65
 Registers: [0, 65, 32, 0, -384, 85376, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -319
 Registers: [0, 65, 32, 0, -319, 85376, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[36] = -319
 Registers: [0, 65, 32, 0, -319, 85376, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -85183
 Registers: [0, 65, 32, 0, -319, -85183, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 36
 Registers: [0, 65, 36, 0, -319, -85183, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 65, 36, 0, -319, -85183, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 65, 36, 0, 0, -85183, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 40
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 2
+Tag: 1 , Cache Index: 0 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 0
 Cache Access was a hit
 
+Register $1 = -127
 Registers: [0, -127, 36, 0, 0, -85183, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -127
 Registers: [0, -127, 36, 0, -127, -85183, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 44
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 3
+Tag: 1 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 65
 Registers: [0, 65, 36, 0, -127, -85183, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -64
 Registers: [0, 65, 36, 0, -64, -85183, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 48
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 0
+Tag: 1 , Cache Index: 2 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 0
 Cache Access was a miss
+Cache is Full, replacing block based on LRU replacement policy
+Replaced block at 2
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 0
 Cache Access was a miss
 
+Found empty place at 1
+Register $1 = -31
 Registers: [0, -31, 36, 0, -64, -85183, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 33
 Registers: [0, -31, 36, 0, 33, -85183, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[40] = 33
 Registers: [0, -31, 36, 0, 33, -85183, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -85152
 Registers: [0, -31, 36, 0, 33, -85152, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 40
 Registers: [0, -31, 40, 0, 33, -85152, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -31, 40, 0, 33, -85152, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -31, 40, 0, 0, -85152, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 44
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 0 Offset: 3
+Tag: 1 , Cache Index: 0 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 5 Offset: 1
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 1 Offset: 1
 Cache Access was a hit
 
+Register $1 = 65
 Registers: [0, 65, 40, 0, 0, -85152, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 65
 Registers: [0, 65, 40, 0, 65, -85152, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 48
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 0
+Tag: 1 , Cache Index: 2 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 0
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 0
 Cache Access was a hit
 
+Register $1 = -31
 Registers: [0, -31, 40, 0, 65, -85152, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -96
 Registers: [0, -31, 40, 0, -96, -85152, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 52
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 1
+Tag: 1 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 17
 Registers: [0, 17, 40, 0, -96, -85152, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -79
 Registers: [0, 17, 40, 0, -79, -85152, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[44] = -79
 Registers: [0, 17, 40, 0, -79, -85152, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85201
 Registers: [0, 17, 40, 0, -79, 85201, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 44
 Registers: [0, 17, 44, 0, -79, 85201, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 17, 44, 0, -79, 85201, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 17, 44, 0, 0, 85201, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 48
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 0
+Tag: 1 , Cache Index: 1 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 0
+Tag: 1 , Cache Index: 2 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 0
 Cache Access was a hit
 
+Register $1 = -31
 Registers: [0, -31, 44, 0, 0, 85201, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -31
 Registers: [0, -31, 44, 0, -31, 85201, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 52
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 1
+Tag: 1 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 17
 Registers: [0, 17, 44, 0, -31, 85201, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -16
 Registers: [0, 17, 44, 0, -16, 85201, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 56
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 2
+Tag: 1 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 0
+Tag: 1 , Cache Index: 3 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 0
 Cache Access was a miss
+Cache is Full, replacing block based on LRU replacement policy
+Replaced block at 3
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 0
 Cache Access was a miss
 
+Found empty place at 1
+Register $1 = -7
 Registers: [0, -7, 44, 0, -16, 85201, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 9
 Registers: [0, -7, 44, 0, 9, 85201, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[48] = 9
 Registers: [0, -7, 44, 0, 9, 85201, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85208
 Registers: [0, -7, 44, 0, 9, 85208, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 48
 Registers: [0, -7, 48, 0, 9, 85208, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, -7, 48, 0, 9, 85208, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, -7, 48, 0, 0, 85208, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 52
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 1
+Tag: 1 , Cache Index: 1 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 2 Offset: 1
+Tag: 1 , Cache Index: 2 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 6 Offset: 1
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 2 Offset: 1
 Cache Access was a hit
 
+Register $1 = 17
 Registers: [0, 17, 48, 0, 0, 85208, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 17
 Registers: [0, 17, 48, 0, 17, 85208, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 56
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 2
+Tag: 1 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 0
+Tag: 1 , Cache Index: 3 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 0
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 0
 Cache Access was a hit
 
+Register $1 = -7
 Registers: [0, -7, 48, 0, 17, 85208, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -24
 Registers: [0, -7, 48, 0, -24, 85208, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 60
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 3
+Tag: 1 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 1
+Tag: 1 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 5
 Registers: [0, 5, 48, 0, -24, 85208, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -19
 Registers: [0, 5, 48, 0, -19, 85208, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[52] = -19
 Registers: [0, 5, 48, 0, -19, 85208, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = -85195
 Registers: [0, 5, 48, 0, -19, -85195, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 52
 Registers: [0, 5, 52, 0, -19, -85195, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 5, 52, 0, -19, -85195, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 5, 52, 0, 0, -85195, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 56
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 2
+Tag: 1 , Cache Index: 1 , Offset: 2 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 0
+Tag: 1 , Cache Index: 3 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 0
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 0
 Cache Access was a hit
 
+Register $1 = -7
 Registers: [0, -7, 52, 0, 0, -85195, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = -7
 Registers: [0, -7, 52, 0, -7, -85195, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 60
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 3
+Tag: 1 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 1
+Tag: 1 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 5
 Registers: [0, 5, 52, 0, -7, -85195, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = -4
 Registers: [0, 5, 52, 0, -4, -85195, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 64
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 2 Cache Index: 0 Offset: 0
+Tag: 2 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 2 Cache Index: 0 Offset: 0
+Tag: 2 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a miss
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 8 Offset: 0
 Cache Access was a miss
+Cache is Full, replacing block based on LRU replacement policy
+Replaced block at 0
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 2 Cache Index: 0 Offset: 0
 Cache Access was a miss
 
+Set is full, replacing block based on LRU policy
+Replacing block at 0
+Register $1 = 0
 Registers: [0, 0, 52, 0, -4, -85195, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = -4
 Registers: [0, 0, 52, 0, -4, -85195, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[56] = -4
 Registers: [0, 0, 52, 0, -4, -85195, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85193
 Registers: [0, 0, 52, 0, -4, 85193, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 56
 Registers: [0, 0, 56, 0, -4, 85193, 60, 0]
 PC: 20 Bne $2, $6, -11
+Branch Taken, Updated PC: 9
 Registers: [0, 0, 56, 0, -4, 85193, 60, 0]
 PC: 10 Add $4, $0, $0
+Register $4 = 0
 Registers: [0, 0, 56, 0, 0, 85193, 60, 0]
 PC: 11 Lw $1, 8196($2)
 
 Accessing address: 60
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 1 Cache Index: 1 Offset: 3
+Tag: 1 , Cache Index: 1 , Offset: 3 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 1 Cache Index: 3 Offset: 1
+Tag: 1 , Cache Index: 3 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 7 Offset: 1
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 1 Cache Index: 3 Offset: 1
 Cache Access was a hit
 
+Register $1 = 5
 Registers: [0, 5, 56, 0, 0, 85193, 60, 0]
 PC: 12 Xor $4, $4, $1
+Register $4 = 5
 Registers: [0, 5, 56, 0, 5, 85193, 60, 0]
 PC: 13 Lw $1, 8200($2)
 
 Accessing address: 64
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 2 Cache Index: 0 Offset: 0
+Tag: 2 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 2 Cache Index: 0 Offset: 0
+Tag: 2 , Cache Index: 0 , Offset: 0 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 8 Offset: 0
-Cache Access was a miss
+Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 2 Cache Index: 0 Offset: 0
 Cache Access was a hit
 
+Register $1 = 0
 Registers: [0, 0, 56, 0, 5, 85193, 60, 0]
 PC: 14 Xor $4, $4, $1
+Register $4 = 5
 Registers: [0, 0, 56, 0, 5, 85193, 60, 0]
 PC: 15 Lw $1, 8204($2)
 
 Accessing address: 68
 
 For Direct Mapped Cache with block size 4 words and total 2 blocks:
-Tag: 2 Cache Index: 0 Offset: 1
+Tag: 2 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Direct Mapped Cache with block size 2 words and total 4 blocks:
-Tag: 2 Cache Index: 0 Offset: 1
+Tag: 2 , Cache Index: 0 , Offset: 1 , Valid Bit: 1
 Cache Access was a hit
 
 For Fully Associative Cache with block size 2 words and total 4 blocks:
 Tag: 8 Offset: 1
 Cache Access was a hit
 
-For 2-way set Associatove  Cache with block size 2 words and total 4 sets:
+For 2-way set Associatove Cache with block size 2 words and total 4 sets:
 Tag: 2 Cache Index: 0 Offset: 1
 Cache Access was a hit
 
+Register $1 = 0
 Registers: [0, 0, 56, 0, 5, 85193, 60, 0]
 PC: 16 Xor $4, $4, $1
+Register $4 = 5
 Registers: [0, 0, 56, 0, 5, 85193, 60, 0]
 PC: 17 Sw $4, 8196($2)
+Memory[60] = 5
 Registers: [0, 0, 56, 0, 5, 85193, 60, 0]
 PC: 18 Xor $5, $5, $4
+Register $5 = 85196
 Registers: [0, 0, 56, 0, 5, 85196, 60, 0]
 PC: 19 Addi $2, $2, 4
+Register $2 = 60
 Registers: [0, 0, 60, 0, 5, 85196, 60, 0]
 PC: 20 Bne $2, $6, -11
 Registers: [0, 0, 60, 0, 5, 85196, 60, 0]
 PC: 21 Sw $5, 8192($0)
+Memory[0] = 85196
 Registers: [0, 0, 60, 0, 5, 85196, 60, 0]
 PC: 22 Dead Loop, Exiting
 Simulation Ended Successfully
@@ -1408,5 +1687,5 @@ Total 5 Cycle Instructions: 45
 
 Cache 1 hit rate: 0.888888888889
 Cache 2 hit rate: 0.8
-Cache 3 hit rate: 0.622222222222
+Cache 3 hit rate: 0.8
 Cache 4 hit rate: 0.8
